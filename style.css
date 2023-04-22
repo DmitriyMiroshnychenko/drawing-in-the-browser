@@ -1,0 +1,71 @@
+.nav {
+    width: 310px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    padding-top: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity .5s;
+}
+
+.clr {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(64, 64, 107);
+    border-radius: 50%;
+    border: 3px solid rgb(214, 214, 214);
+    transition: transform .5s;
+}
+
+.clr:hover {
+    transform: scale(1.2);
+}
+
+.clr:nth-child(1) {
+    background-color: #3d26a5;
+}
+.clr:nth-child(2):hover {
+    background-color: #EF626C;
+}
+.clr:nth-child(3):hover {
+    background-color: #fdec03;
+}
+.clr:nth-child(4):hover {
+    background-color: #24d102;
+}
+.clr:nth-child(5):hover {
+    background-color: #a757a0;
+}
+.clr:nth-child(6):hover {
+    background-color: #d31212;
+}
+.clr:nth-child(7):hover {
+    background-color: #fd4a03;
+}
+button{
+    
+    width: 70px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+    padding: .6em 1em;
+    border-radius: 3px;
+    background-color: #2d3877;
+    color: #fff;
+    cursor: pointer;
+}
+.clear:hover {
+    background-color: rgb(122, 30, 141);
+}
+
+.save{
+    background-color: #423a3f;
+}
+.save:hover {
+    background-color: #03bb56;
+}
